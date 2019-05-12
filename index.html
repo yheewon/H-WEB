@@ -4,21 +4,51 @@
   <title>heewon-Welcome</title>
   <meta charset="utf-8">
   <style>
-    a{
+  body{
+    margin: 0;
+    }
+    a,ol{
       color:pink;
       text-decoration: none;
+    }
+    h1{
+      font-size: 45px;
+      text-align: center;
+      border-bottom: 3px none ;
+      margin: 0;
+      padding: 40px;
+    }
+    li{
+      border-right: 3px none ;
+      width:200px;
+      margin: 0;
+      padding: 13px;
+
+    }
+    #grid{
+      display: grid;
+      grid-template-columns: 300px 1fr;
+    }
+    h2{
+      margin: 0;
     }
   </style>
 </head>
 
-<body>
-  <h1><a href="index.html" style="color:hotpink;text-decoration:underline">H-WEB</a></h1>
-  <ol>
-    <li><a href="1.html">Hungary - Budapest</a></li>
-    <li><a href="2.html">Germany - Rothenburg</a></li>
-    <li><a href="3.html">Croatia - Split</a></li>
-  </ol>
-
-  <h4><font color="hotpink">겨울 가족여행</font></h4>
+  <body>
+    <h1><a href="index.html" style="color:skyblue;">H-WEB</a></h1>
+    <dev id="grid">
+      <ol>
+      <li><a href="1.html"> Hungary - Budapest</a></li>
+      <li><a href="2.html" > Germany - Rothenburg</a></li>
+      <li><a href="3.html"> Croatia - Split</a></li>
+     </ol>
+      <dev>
+        <br>
+        <h2><font color="skyblue">family trip</font></h2>
+        <h4><font color="gray">2019.02.14 - 2019.02.25</font></h4>
+        <img src="plane.jpg" width="90%">
+      </dev>
+    </dev>
 </body>
 </html>
